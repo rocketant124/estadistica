@@ -138,3 +138,14 @@ body {
 .team li{
   list-style-type: style none;;
 }
+ .section-mision{
+      padding: 20px;
+      text-align: center;
+      align-items:center;
+    }
+    .section-mision h1 {
+      font-size: 40px;
+    }
+    .section-mision img{
+     border-radius:5%;
+    }
