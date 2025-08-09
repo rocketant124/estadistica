@@ -24,7 +24,7 @@
 <style>
   .titulo{
     text-align:center;
-    margin-bottom:-3rem;
+    margin-bottom:-2rem;
   }
 </style>
 <div class="titulo">
@@ -32,9 +32,38 @@
 </div>
 
 <section class="section-mision" id="mision">
-  <p>Verificar las medidas para determinar la distancia de un equipo a otro, que a su vez, se obtenga el funcionamiento del sistema eléctrico como la conexión de computadoras, pantalla interactiva, rack y aire acondicionado y conexión a la red.</p>
-<img src="imagenes/design.jpg" alt="" height="500rem" width="600rem">
+  <p>"Ser la empresa líder en análisis estadístico de redes sociales, transformando datos en conocimiento estratégico que impulse decisiones inteligentes y cree un impacto positivo en la sociedad. Aspiramos a ser el puente entre la información y la acción, ayudando a marcas, instituciones y creadores a comprender su verdadero alcance, mejorar su comunicación y generar cambios reales en un mundo cada vez más conectado."</p>
 </section>
-</section>
+
+<section class="section" id="imagenes">
+
+<div class="galeria">
+  <a href="#img1"><img src="imagenes/e1.jpg" alt="Gráfico 1"></a>
+  <a href="#img2"><img src="imagenes/e2.jpg" alt="Gráfico 2"></a>
+  <a href="#img3"><img src="imagenes/e3.jpg" alt="Gráfico 3"></a>
+
+</div>
+
+ <style>
+      .galeria {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 15px;
+      max-width:60%;
+      margin: auto;
+    }
+
+    .galeria img {
+      width: 100%;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+
+    .galeria img:hover {
+      transform: scale(1.05);
+    }
+
+</style>
 </body>
 </html>

@@ -142,10 +142,13 @@ body {
       padding: 20px;
       text-align: center;
       align-items:center;
+      max-width: 1000px;
+      margin: auto;
     }
     .section-mision h1 {
       font-size: 40px;
     }
     .section-mision img{
      border-radius:5%;
+     margin-top:1rem;
     }

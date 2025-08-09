@@ -21,13 +21,36 @@
   <a href="equipo.html">¿Quienes somos?</a>
 </nav>
 
-<section class="team">
-  <H2>Integrantes:</H2>
-<ul>
-  <li><img src="imagenes/edu.jpg" alt="Icono" width="90">González Román Eduardo, Técnico Superior en Inteligencia Artificial.</li>
-  <li><img src="imagenes/uri.jpg" alt="Icono" width="90">Rodríguez Ríos Uriel, Técnico Superior en Inteligencia Artificial.</li>
-  <li><img src="imagenes/jared.jpg" alt="Icono" width="90">Villa Alanís Christopher Jared, Técnico Superior en Inteligencia Artificial.</li>
-</ul>
-</section>
+<section class="section" id="imagenes">
+<h2 style="text-align:center;">Integrantes:</h2>
+
+<div class="galeria">
+  <p><img src="imagenes/edu.jpg" alt="E"><b>Eduardo Gonzáles Román</b>, Técnico Superior en Inteligencia Artificial</p>
+  <p><img src="imagenes/jared.jpg" alt="j"><b>Christopher Jared Villa Alanis</b>, Técnico Superior en Inteligencia Artificial</p>
+  <p><img src="imagenes/uri.jpg" alt="u"><b>Uriel Rodríguez Rios</b>, Técnico Superior en Inteligencia Artificial</p>
+</div>
+
+<style>
+      .galeria {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap:10rem;
+      max-width: 900px;
+      margin: auto;
+      margin-top:3rem;
+    }
+
+    .galeria img {
+      width: 100%;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+      margin-bottom:1rem;
+    }
+
+    .galeria img:hover {
+      transform: scale(1.05);
+    }
+</style>
 </body>
 </html>
